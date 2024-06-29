@@ -68,4 +68,3 @@ if __name__ == "__main__":
     except ValueError:
         print("Employee ID must be an integer")
         sys.exit(1)
-
