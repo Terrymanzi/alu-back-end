@@ -7,7 +7,7 @@ This module retrieves and displays TODO list progress for a given employee ID
 import requests
 import sys
 
-def fetch_employee_data(employee_id):
+  def fetch_employee_data(employee_id):
     """Fetch employee data including TODO list progress using REST API"""
     base_url = "https://jsonplaceholder.typicode.com"
     
@@ -22,7 +22,7 @@ def fetch_employee_data(employee_id):
     
     return user_data, todos_data
 
-def display_todo_progress(employee_id):
+  def display_todo_progress(employee_id):
     """Display the TODO list progress for the given employee ID"""
     user_data, todos_data = fetch_employee_data(employee_id)
     
